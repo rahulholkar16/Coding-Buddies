@@ -7,6 +7,32 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    .team-card-name{
+        color: white;
+        font-size: 64px;
+        font-weight: 400;
+        font-family: 'Almendra', serif;
+        
+    }
+
+
+    .team-card-teamName{
+        color: #ffffff;
+        font-size: 1.5rem; 
+        line-height: 2rem;
+        font-weight: 400;
+        text-align: center;
+        font-family: 'Alice', serif;
+    }
+
+    .team-card-paragraph{
+        color: #ffffff;
+        font-weight: 400;
+        text-align: center;
+        font-family: 'Alice', serif;
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+    }
 
     .team-card-img{
         width: 200px;
@@ -20,5 +46,12 @@
         display: flex;
         justify-content: center;
         margin-top: 5px;
+        gap: 1px;
+        .team-card-icons{
+            width: 50px;
+            height: 50px;
+            background-color: #ffffff;
+            border-right-width: solid 2px black;
+        }
     }
 }

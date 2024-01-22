@@ -44,8 +44,8 @@ function Card() {
                     <img src={value.img} />
                 </div>
                 <div className="card-txt">
-                    <div className="text-white text-lg font-medium font-['Inter'] uppercase">{value.main_txt}</div>
-                    <div className="w-[209px] text-center text-zinc-400 text-sm font-normal font-['Inter']">Lorem ipsum dolor sit amet, consectetuer adipiscing</div>
+                    <div className="card-main-txt">{value.main_txt}</div>
+                    <div className="card-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing</div>
                 </div>
         </div>
         ))

@@ -4,6 +4,7 @@
     background: radial-gradient(66.01% 50% at 50% 50%, #19094A 10%, rgba(25, 9, 74, 0.75) 100%);
     display: flex;
 
+
     .footer-left-div{
         flex: 1;
         display: flex;
@@ -11,6 +12,7 @@
         justify-content: center;
         padding-left: 15px;
         padding-right: 15px;
+        
     }
     .footer-right-div {
         flex: 1;
@@ -35,5 +37,32 @@
             justify-content: space-between;
             
         }
+
+        .footer-center-txt{
+            font-size: 1.5rem;
+            line-height: 2rem; 
+            font-weight: 600; 
+            text-align: center; 
+            color: #ffffff; 
+            font-family: 'Inter', sans-serif;
+        }
     }
+
+    .footer-heading{
+        font-size: 3rem;
+        line-height: 1; 
+        font-weight: 400; 
+        color: #ffffff; 
+        opacity: 50%;
+        font-family: 'ABeeZee', sans-serif;
+    }
+    .footer-paragrap{
+        font-family: 'ABeeZee', sans-serif;
+        font-size: 1.25rem;
+        line-height: 1.75rem; 
+        font-weight: 400; 
+        color: #ffffff; 
+    }
+
+
 }

@@ -40,18 +40,18 @@ export default function TeamCard() {
                     <img src={value.img} />
                 </div>
                 <div className='team-card-txt'>
-                    <div className="text-white text-[64px] font-normal font-['Almendra']">{value.name}</div>
-                    <div className="text-white text-2xl font-normal font-['Alice'] text-center">{value.team_name}</div>
-                    <div className="text-white text-3xl font-normal font-['Alice'] text-center">{value.paragraph}</div>
+                    <div className="team-card-name">{value.name}</div>
+                    <div className="team-card-teamName">{value.team_name}</div>
+                    <div className="text-white text-3xl font-normal font-['Alice'] text-center team-card-paragraph">{value.paragraph}</div>
                 </div>
                 <div className='team-card-link'>
-                    <div className="w-[50px] h-[50px] bg-white border-r border-black" >
+                    <div className="team-card-icons" >
                         <img src="src\assets\LinkedIn1.png" alt="" />
                     </div>
-                    <div className="w-[50px] h-[50px] bg-white border-r border-black" >
+                    <div className="team-card-icons" >
                         <img src="src\assets\Email.png" alt="" />
                     </div>
-                    <div className="w-[50px] h-[50px] bg-white border-r border-black" >
+                    <div className="team-card-icons" >
                         <img src="src\assets\Instagram Circle.png" alt="" />
                     </div>
 

@@ -5,8 +5,8 @@ export default function Footer() {
   return (
     <div className='footer'>
         <div className='footer-left-div'>
-            <div className="text-white text-opacity-50 text-5xl font-normal font-['ABeeZee']">Email</div>
-            <div className="text-white text-xl font-normal font-['ABeeZee']">Codingbuddies@gmail.com</div>
+            <div className="footer-heading">Email</div>
+            <div className="text-white text-xl font-normal font-['ABeeZee'] footer-paragrap">Codingbuddies@gmail.com</div>
         </div>
         <div className='footer-center-div'>
             <div className='icons'>
@@ -22,11 +22,11 @@ export default function Footer() {
                 <img src="src\assets\skill-icons_discord.png" alt="Discord"/>
             </div>
 
-            <div className="text-center text-white text-2xl font-semibold font-['Inter']">Copyright © www.Website.com all rights are reserved!!!</div>
+            <div className="footer-center-txt">Copyright © www.Website.com all rights are reserved!!!</div>
         </div>
         <div className='footer-right-div'>
-            <div className="text-white text-opacity-50 text-5xl font-normal font-['ABeeZee']">Address</div>
-            <div className="text-white text-xl font-normal font-['ABeeZee']">Knowledge Park 2, Greater Noida</div>
+            <div className="footer-heading">Address</div>
+            <div className="footer-paragrap">Knowledge Park 2, Greater Noida</div>
         </div>
     </div>
   )

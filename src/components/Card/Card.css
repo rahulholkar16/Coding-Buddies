@@ -20,5 +20,23 @@
         align-items: center;
         justify-content: center;
         margin-bottom: 10px;
+        .card-main-txt{
+            color: white;
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+            font-weight: 500;
+            font-family: 'Inter', sans-serif;
+            text-transform: uppercase;
+        }
+
+        .card-paragraph{
+            width: 209px;
+            text-align: center;
+            color: rgb(161 161 170);
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+            font-weight: 400;
+            font-family: 'Inter', sans-serif;
+        }
     }
 }
