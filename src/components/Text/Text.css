@@ -1,0 +1,18 @@
+
+    .third-container-main-text {
+        color: #ffffff;
+        font-family: Quicksand;
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .third-container-paragraph {
+        display: flex;
+        max-width: 609px; 
+        justify-content: center;
+        color: #b0b2b2;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+    }

@@ -1,0 +1,49 @@
+#nav {
+    height: 35px;
+    width: 100%;
+    display: flex;
+
+    #navlogo {
+        width: 85px;
+        cursor: pointer;
+    }
+
+    #navItems {
+        height: 100%;
+        width: 100%;
+        background: #000;
+        display: flex;
+        justify-content: space-between;
+
+        #Items {
+            display: flex;
+            width: 465px;
+            height: 100%;
+            align-items: center;
+            margin-left: 25%;
+
+            .itemlist {
+                display: flex;
+                width: 100%;
+                list-style: none;
+                color: white;
+                justify-content: space-between;
+
+                .itemlistText {
+                    font-size: 20px;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: gray;
+                    }
+                }
+            }
+        }
+
+        #NavSocialIcons{
+            display: flex;
+            gap: 15px;
+            cursor: pointer;
+        }
+    }
+}

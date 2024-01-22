@@ -1,0 +1,24 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 268px;
+    height: 268px;
+    border: 2px solid #202526;
+    transition: border-color 0.3s ease;
+    padding: 15px;
+
+    &:hover {
+        border-color: rgb(61, 61, 209);
+    }
+
+    .card-Img,
+    .card-txt {
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+}

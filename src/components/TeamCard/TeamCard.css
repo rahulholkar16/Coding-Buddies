@@ -1,0 +1,24 @@
+.Team-Card{
+    height: 100%;
+    width: 300px;
+    border: solid 3px #0DDB93;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .team-card-img{
+        width: 200px;
+        height: 200px;
+        border-radius: 350px;
+        border: solid 1px #0DDB93;
+        margin-top: 20px;
+    }
+
+    .team-card-link{
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+}
