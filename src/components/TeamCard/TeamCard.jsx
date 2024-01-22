@@ -3,28 +3,28 @@ import "./TeamCard.css"
 
 const team_card_obj = [
     {
-        img: "https://ibb.co/DM0hRJB",
+        img: "https://i.ibb.co/s18nVfT/boy.png",
         name: "Aman Kar",
         team_name: "Developer's Team",
         paragraph: "Coding Buddies"
 
     },
     {
-        img: "https://ibb.co/DM0hRJB",
+        img: "https://i.ibb.co/s18nVfT/boy.png",
         name: "Aman Kar",
         team_name: "Developer's Team",
         paragraph: "Coding Buddies"
 
     },
     {
-        img: "https://ibb.co/DM0hRJB",
+        img: "https://i.ibb.co/s18nVfT/boy.png",
         name: "Aman Kar",
         team_name: "Developer's Team",
         paragraph: "Coding Buddies"
 
     },
     {
-        img: "https://ibb.co/DM0hRJB",
+        img: "https://i.ibb.co/s18nVfT/boy.png",
         name: "Aman Kar",
         team_name: "Developer's Team",
         paragraph: "Coding Buddies"
@@ -37,7 +37,7 @@ export default function TeamCard() {
         team_card_obj.map((value, index) => (
             <div className='Team-Card' key={index}>
                 <div className='team-card-img'>
-                    <img src={value.img} />
+                    <a href="#"><img src={value.img} alt="boy" border="0" /></a>
                 </div>
                 <div className='team-card-txt'>
                     <div className="team-card-name">{value.name}</div>
@@ -46,13 +46,13 @@ export default function TeamCard() {
                 </div>
                 <div className='team-card-link'>
                     <div className="team-card-icons" >
-                        <img src="https://ibb.co/YZsrVdg" alt="" />
+                        <a href="#"><img src="https://i.ibb.co/Ryw5J68/Linked-In1.png" alt="Linked-In1" border="0" /></a>
                     </div>
                     <div className="team-card-icons" >
-                        <img src="https://ibb.co/1zJkzDJ" alt="" />
+                        <a href="#"><img src="https://i.ibb.co/sWJZW0J/Email.png" alt="Email" border="0" /></a>
                     </div>
                     <div className="team-card-icons" >
-                        <img src="https://ibb.co/pnG8TqX" alt="" />
+                        <a href="#"><img src="https://i.ibb.co/TrpSGyh/Instagram-Circle.png" alt="Instagram-Circle" border="0" /></a>
                     </div>
 
                 </div>

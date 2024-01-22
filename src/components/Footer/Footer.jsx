@@ -11,16 +11,16 @@ export default function Footer() {
         <div className='footer-center-div'>
             <div className='icons'>
 
-                <img src="https://ibb.co/4RvNSTZ" alt="Facebook"/>
+                <a href="#"><img src="https://i.ibb.co/MkwN1VD/Vector.png" alt="Vector" border="0" /></a>
 
-                <img src="https://ibb.co/q9KS0Mh" alt="Instagram"/>
+                <a href="#/"><img src="https://i.ibb.co/L6mFQzB/skill-icons-instagram.png" alt="skill-icons-instagram" border="0" /></a>
 
-                <img src="https://ibb.co/Jj8WZVS" alt="Github"/>
+                <a href="#"><img src="https://i.ibb.co/0y1p5Tz/skill-icons-github-dark.png" alt="skill-icons-github-dark" border="0" /></a>
 
-                <img src="https://ibb.co/XzckHH9" alt="Linkedin"/>
+                <a href="#"><img src="https://i.ibb.co/TH9qyyZ/skill-icons-linkedin.png" alt="skill-icons-linkedin" border="0" /></a>
 
-                <img src="https://ibb.co/3SsRTnK" alt="Discord"/>
-            </div>
+                <a href="#"><img src="https://i.ibb.co/8PBYmHk/skill-icons-discord.png" alt="skill-icons-discord" border="0" /></a>
+                </div>
 
             <div className="footer-center-txt">Copyright © www.Website.com all rights are reserved!!!</div>
         </div>

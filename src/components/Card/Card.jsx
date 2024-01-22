@@ -3,32 +3,32 @@ import "./Card.css"
 
 const cardObj = [
     {
-        img: "src/assets/Kubernetes.png",
+        img: "https://i.ibb.co/nfd6bQV/Kubernetes.png",
         main_txt: "Kubernetes",
         pargraph: "Lorem ipsum dolor sit amet, consectetuer adipiscing"
     },
     {
-        img: "https://ibb.co/bLwQPNy",
+        img: "https://i.ibb.co/nfd6bQV/Kubernetes.png",
         main_txt: "Kubernetes",
         pargraph: "Lorem ipsum dolor sit amet, consectetuer adipiscing"
     },
     {
-        img: "https://ibb.co/bLwQPNy",
+        img: "https://i.ibb.co/nfd6bQV/Kubernetes.png",
         main_txt: "Kubernetes",
         pargraph: "Lorem ipsum dolor sit amet, consectetuer adipiscing"
     },
     {
-        img: "https://ibb.co/bLwQPNy",
+        img: "https://i.ibb.co/nfd6bQV/Kubernetes.png",
         main_txt: "Kubernetes",
         pargraph: "Lorem ipsum dolor sit amet, consectetuer adipiscing"
     },
     {
-        img: 'https://ibb.co/bLwQPNy',
+        img: 'https://i.ibb.co/nfd6bQV/Kubernetes.png',
         main_txt: "Kubernetes",
         pargraph: "Lorem ipsum dolor sit amet, consectetuer adipiscing"
     },
     {
-        img: "https://ibb.co/bLwQPNy",
+        img: "https://i.ibb.co/nfd6bQV/Kubernetes.png",
         main_txt: "Kubernetes",
         pargraph: "Lorem ipsum dolor sit amet, consectetuer adipiscing"
     },
@@ -41,7 +41,7 @@ function Card() {
         cardObj.map((value, index)=>(
             <div className="card" key={index}>
                 <div className="card-Img">
-                    <img src={value.img} />
+                <a href="#"><img src={value.img} alt="Kubernetes" border="0" /></a>
                 </div>
                 <div className="card-txt">
                     <div className="card-main-txt">{value.main_txt}</div>

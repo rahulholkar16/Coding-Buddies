@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div id='nav'>
         <div id='navlogo'>
-            <img src="https://ibb.co/dtDw5x3" alt="Logo"/>
+            <a href="#"><img src="https://i.ibb.co/NrKdybk/logo.png" alt="logo" border="0" /></a>
         </div>
         <div id='navItems'>
             <div id='Items'>
@@ -17,9 +17,9 @@ export default function Navbar() {
                 </ul>
             </div>
             <div id='NavSocialIcons'>
-                <img className="NavSocialIcon" src="https://ibb.co/F5MQS10" alt="Instagram" />
-                <img className="NavSocialIcon" src="https://ibb.co/v3n160C" alt="LinkedIn" />
-                <img className="NavSocialIcon" src="https://ibb.co/fXfk3gR" alt="Twitter" />
+                <a href="#"><img src="https://i.ibb.co/3pqxDbM/Instagram.png" alt="Instagram" border="0" /></a>
+                <a href="#"><img src="https://i.ibb.co/gSKyLkb/LinkedIn.png" alt="LinkedIn" border="0" /></a>
+                <a href="#"><img src="https://i.ibb.co/WHZkrh9/TwitterX.png" alt="TwitterX" border="0" /></a>
             </div>
         </div>
     </div>
