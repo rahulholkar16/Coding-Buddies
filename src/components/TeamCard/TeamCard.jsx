@@ -3,28 +3,28 @@ import "./TeamCard.css"
 
 const team_card_obj = [
     {
-        img: "src/assets/boy.png",
+        img: "https://ibb.co/DM0hRJB",
         name: "Aman Kar",
         team_name: "Developer's Team",
         paragraph: "Coding Buddies"
 
     },
     {
-        img: "src/assets/boy.png",
+        img: "https://ibb.co/DM0hRJB",
         name: "Aman Kar",
         team_name: "Developer's Team",
         paragraph: "Coding Buddies"
 
     },
     {
-        img: "src/assets/boy.png",
+        img: "https://ibb.co/DM0hRJB",
         name: "Aman Kar",
         team_name: "Developer's Team",
         paragraph: "Coding Buddies"
 
     },
     {
-        img: "src/assets/boy.png",
+        img: "https://ibb.co/DM0hRJB",
         name: "Aman Kar",
         team_name: "Developer's Team",
         paragraph: "Coding Buddies"
@@ -46,13 +46,13 @@ export default function TeamCard() {
                 </div>
                 <div className='team-card-link'>
                     <div className="team-card-icons" >
-                        <img src="src\assets\LinkedIn1.png" alt="" />
+                        <img src="https://ibb.co/YZsrVdg" alt="" />
                     </div>
                     <div className="team-card-icons" >
-                        <img src="src\assets\Email.png" alt="" />
+                        <img src="https://ibb.co/1zJkzDJ" alt="" />
                     </div>
                     <div className="team-card-icons" >
-                        <img src="src\assets\Instagram Circle.png" alt="" />
+                        <img src="https://ibb.co/pnG8TqX" alt="" />
                     </div>
 
                 </div>

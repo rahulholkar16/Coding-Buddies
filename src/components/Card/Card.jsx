@@ -8,27 +8,27 @@ const cardObj = [
         pargraph: "Lorem ipsum dolor sit amet, consectetuer adipiscing"
     },
     {
-        img: "src/assets/Kubernetes.png",
+        img: "https://ibb.co/bLwQPNy",
         main_txt: "Kubernetes",
         pargraph: "Lorem ipsum dolor sit amet, consectetuer adipiscing"
     },
     {
-        img: "src/assets/Kubernetes.png",
+        img: "https://ibb.co/bLwQPNy",
         main_txt: "Kubernetes",
         pargraph: "Lorem ipsum dolor sit amet, consectetuer adipiscing"
     },
     {
-        img: "src/assets/Kubernetes.png",
+        img: "https://ibb.co/bLwQPNy",
         main_txt: "Kubernetes",
         pargraph: "Lorem ipsum dolor sit amet, consectetuer adipiscing"
     },
     {
-        img: 'src/assets/Kubernetes.png',
+        img: 'https://ibb.co/bLwQPNy',
         main_txt: "Kubernetes",
         pargraph: "Lorem ipsum dolor sit amet, consectetuer adipiscing"
     },
     {
-        img: "src/assets/Kubernetes.png",
+        img: "https://ibb.co/bLwQPNy",
         main_txt: "Kubernetes",
         pargraph: "Lorem ipsum dolor sit amet, consectetuer adipiscing"
     },

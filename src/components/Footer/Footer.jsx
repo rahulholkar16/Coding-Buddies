@@ -11,15 +11,15 @@ export default function Footer() {
         <div className='footer-center-div'>
             <div className='icons'>
 
-                <img src="src\assets\Vector.png" alt="Facebook"/>
+                <img src="https://ibb.co/4RvNSTZ" alt="Facebook"/>
 
-                <img src="src\assets\skill-icons_instagram.png" alt="Instagram"/>
+                <img src="https://ibb.co/q9KS0Mh" alt="Instagram"/>
 
-                <img src="src\assets\skill-icons_github-dark.png" alt="Github"/>
+                <img src="https://ibb.co/Jj8WZVS" alt="Github"/>
 
-                <img src="src\assets\skill-icons_linkedin.png" alt="Linkedin"/>
+                <img src="https://ibb.co/XzckHH9" alt="Linkedin"/>
 
-                <img src="src\assets\skill-icons_discord.png" alt="Discord"/>
+                <img src="https://ibb.co/3SsRTnK" alt="Discord"/>
             </div>
 
             <div className="footer-center-txt">Copyright © www.Website.com all rights are reserved!!!</div>

@@ -87,7 +87,7 @@ const Home = () => {
 
                 <div className="fift-container">
                     <div className="fift-container-left-div">
-                        <img src="src\assets\main2.png"  width="100%"/>
+                        <img src="https://ibb.co/bKLRzmP"  width="100%"/>
                     </div>
                     <div className="fift-container-right-div">
                             <div className="fift-container-right-div-txt">We are always looking for new exciting projects and collaborations. Feel Free to contact us!</div>
